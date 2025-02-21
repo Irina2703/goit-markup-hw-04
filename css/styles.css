@@ -295,6 +295,72 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: #434455;
      }
     
+
+.team-icon-ul {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+.team-icon-li {}
+
+.team-icon-a {background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+.team-icon-a
+.team-icon-a:focus {
+    background-color: #404bbf;
+}
+.svg-icon {
+    fill: #f4f4fd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     .team-ul { 
         display: flex;
@@ -429,4 +495,39 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-svg-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.footer-svg-a {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fotter-svg ul li svg {
+    fill: white;
+}
+
+.footer-svg-a:hover,
+.footer-svg-a:focus {
+    background-color: #31D0AA;
 }
