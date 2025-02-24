@@ -67,8 +67,6 @@ button {
     margin-right: 76px;
 }
 
-
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -234,7 +232,7 @@ button {
 }
 
 .benefits-item {
-    width: calc((100%-72px) / 4);
+    width: calc((100%-72px) / 4)  ;
 }
 
 .visually-hidden {
@@ -620,5 +618,4 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .footer-svg-a:hover,
 .footer-svg-a:focus {
-    background-color: #31D0AA;
-}
+    background-color: #31D0AA;}
